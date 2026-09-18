@@ -223,12 +223,12 @@
     .hud { grid-template-columns: 1fr 1fr; }
     .hud .center { display:none; }
     .hud .right { text-align:right; }
-    .track { width: 86vw; }
+    .track { width: 86vw; height: calc(100dvh - 104px); min-height: 0; }
     .movie { width: 100px; min-height: 50px; }
-    .controls { gap: 7px; }
-    .control-btn { width: 64px; }
+    .controls { gap: 7px; bottom: 8px; }
+    .control-btn { width: 64px; height: 40px; }
     .accelerate-btn { width: 78px; font-size: 10px; }
-    .player { bottom: 58px; }
+    .player { bottom: 50px; }
   }
 </style>
 </head>
